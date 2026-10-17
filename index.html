@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jing: Sutras &amp; Stillness</title>
+<meta name="description" content="Read Buddhist sutras in Chinese and English, with quiet paintings that unfold as you read.">
+<style>
+:root {
+  --ink: #120e0b;
+  --silk: #efe4c8;
+  --gold: #c9a052;
+  --gold-soft: #e6c47a;
+  --muted: #b3a589;
+  --line: #3a2f24;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--silk);
+  font: 17px/1.7 -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", sans-serif;
+}
+.wrap { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+header { display: flex; align-items: center; gap: 14px; margin-bottom: 40px; }
+.mark {
+  width: 44px; height: 44px; flex: none; border-radius: 50%;
+  border: 1.5px solid var(--gold); color: var(--gold);
+  display: grid; place-items: center;
+  font: 600 22px/1 "Songti SC", "STSong", serif;
+}
+header a { color: var(--silk); text-decoration: none; font-weight: 600; letter-spacing: .04em; }
+nav { margin-left: auto; display: flex; gap: 18px; font-size: 15px; }
+nav a { color: var(--muted); text-decoration: none; }
+nav a:hover, nav a[aria-current] { color: var(--gold-soft); }
+h1 { font: 600 34px/1.25 "New York", Georgia, "Songti SC", serif; color: var(--gold-soft); margin: 0 0 8px; }
+h2 { font: 600 21px/1.35 "New York", Georgia, "Songti SC", serif; color: var(--gold-soft); margin: 36px 0 8px; }
+.zh { color: var(--muted); font-family: "Songti SC", "STSong", serif; }
+p, li { margin: 0 0 12px; }
+a { color: var(--gold-soft); }
+.rule { border: 0; border-top: 1px solid var(--line); margin: 36px 0; }
+.lede { font-size: 19px; }
+.badge { display: inline-block; margin-top: 8px; padding: 10px 18px; border: 1px solid var(--gold); border-radius: 999px; color: var(--gold-soft); text-decoration: none; }
+footer { margin-top: 56px; font-size: 14px; color: var(--muted); }
+footer a { color: var(--muted); }
+@media (max-width: 480px) {
+  .wrap { padding-top: 28px; }
+  h1 { font-size: 28px; }
+  nav { gap: 12px; font-size: 14px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="mark" aria-hidden="true">经</span>
+    <a href="./">Jing</a>
+    <nav>
+      <a href="./" aria-current="page">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <h1>Jing: Sutras &amp; Stillness</h1>
+  <p class="zh">经 · 佛经读诵</p>
+
+  <p class="lede">Read classic Buddhist sutras in the original Chinese with a plain modern English translation, side by side. As you read, a quiet painting slowly takes shape.</p>
+  <p class="zh">中英对照读诵佛经。随着阅读，一幅画在眼前慢慢显现。</p>
+
+  <h2>In the first release</h2>
+  <ul>
+    <li>The Heart Sutra <span class="zh">· 心经</span></li>
+    <li>The Diamond Sutra <span class="zh">· 金刚经</span></li>
+    <li>The Universal Gate of Guanyin <span class="zh">· 普门品</span></li>
+    <li>The Medicine Buddha Sutra <span class="zh">· 药师经</span></li>
+    <li>Earth Store Bodhisattva’s Original Vows (selections) <span class="zh">· 地藏经（选）</span></li>
+  </ul>
+
+  <h2>Quiet by design</h2>
+  <p>Free. No ads, no accounts, no tracking. Everything works offline, and your reading place stays on your phone.</p>
+  <p class="zh">免费，无广告、无账号、无追踪。离线可用，阅读进度只保存在你的手机上。</p>
+
+  <p>Coming soon to the App Store for iPhone.</p>
+
+  <footer>
+    <hr class="rule">
+    <p>© 2026 Thusness LLC · <a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a> · <a href="mailto:hello@jingsutras.com">hello@jingsutras.com</a></p>
+  </footer>
+</div>
+</body>
+</html>
